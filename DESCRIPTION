@@ -1,0 +1,34 @@
+Package: SpinyRiceFlowers
+Type: Package
+Title: Functions and Data sets for the Spiny Rice Flower Project
+Version: 0.1.3
+Authors@R: c(
+    person("Megan", "O'Shea",  role = "aut"),
+    person("Neil", "Diamond", email = "neil.diamond@esquant.com.au", role = c("aut","cre")))
+Description: Provides R Functions and Data Sets used in the Spiny Rice Flower Project
+    Estimates quadrat probability, inclusion probability, and assessess performance of various sample size in terms of coefficient of variation.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    calculus,
+    cooltools,
+    cubature,
+    ggdensity,
+    ggplot2,
+    Hmisc,
+    knitr,
+    ks,
+    MASS,
+    MASSExtra,
+    matrixStats,
+    purrr,
+    readxl,
+    spatstat,
+    wrswoR
+RoxygenNote: 7.3.2
+Depends: 
+    R (>= 2.10)
+Suggests: 
+    rmarkdown
+VignetteBuilder: knitr

@@ -1,0 +1,22 @@
+#' Bon Thomas A Data 2017-2021
+#'
+#' Longitudinal data for Bon Thomas A
+#'
+#'  The dimensions of this grid are:
+#'  Length = 35m., Width = 15m., Area = 525 sq. m.
+#'
+#'
+#' @format A data frame with 83 rows and 8 variables:
+#' \describe{
+#'   \item{Tag ID}{Plant Tag identification}
+#'   \item{Status 2017}{Status as of 2017: Categorical variable with levels "Existing", "Germinant", and "NA" (Missing)}
+#'   \item{Status 2018}{Status as of 2018: Categorical variable with levels "Alive","Dead","Recruit","Germinant", and "NA" (Missing)}
+#'   \item{Status 2019}{Status as of 2019: Categorical variable with levels "Alive","Dead","Recruit","Germinant", and "NA" (Missing)}
+#'   \item{Status 2020}{Status as of 2020: Categorical variable with levels "Alive","Dead","Recruit","Germinant", and "NA" (Missing)}
+#'   \item{Status 2021}{Status as of 2021: Categorical variable with levels "Alive","Dead","Recruit", and "Germinant"}
+#'   \item{x-axis}{x-axis position}
+#'   \item{y-axis}{y-axis position}
+#' }
+#'
+#' @source Dr Megan O'Shea: Spiny Rice Flowers Project
+"BonThomasA"
