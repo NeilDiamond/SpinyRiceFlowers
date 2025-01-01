@@ -4,8 +4,11 @@ EstimatedTotal <- function(ss, site, year, quadratsize=5,
                            incprobsmat,
                            nreps = 10000){
 incprobs <- incprobsmat[ss,]
+
 AliveYearBefore <- NumberAlive(site, year-1)
+print(AliveYearBefore)
 qChange <- Change(site, year, quadratsize=quadratsize, quadratstart=quadratstart)
+print(qChange)
 #results <- table(replicate(nreps,calctot(ss,
 #                     probs=probs,
 #                     incprobs=incprobs,

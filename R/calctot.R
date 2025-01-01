@@ -20,5 +20,6 @@
 #' Hmisc::wtd.mean(as.numeric(names(results)), results)
 #' sqrt(Hmisc::wtd.var(as.numeric(names(results)), results))
 calctot <- function(ss, probs, incprobs, qx){
-  sval <- wrswoR::sample_int_crank(attr(qx,"tess")$n, ss, prob=probs)
+  sval <- wrswoR::sample_int_crank(prod(sapply(attributes(qx)$dimnames,length)),
+                                               ss, prob=probs)
   return(sum((as.numeric(qx)/incprobs)[sval]))}

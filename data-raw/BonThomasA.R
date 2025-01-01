@@ -1,6 +1,6 @@
 ## code to prepare `BonThomasA` dataset goes here
 
-BonThomasA <- read_xlsx("./inst/extdata/BonThomasA.xlsx")[,1:8]
+BonThomasA <- readxl::read_excel("./inst/extdata/BonThomasA.xlsx")[,1:8]
 colnames(BonThomasA)[c(1,7:8)] <- c("Tag ID","x-axis","y-axis")
 BonThomasA <- BonThomasA[(BonThomasA$`Status 2017`=="Existing"|
                             BonThomasA$`Status 2017`=="Germinant" )|
