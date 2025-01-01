@@ -199,7 +199,8 @@ EstimatedTotal(ss=15,BonThomasA, 2021,  probs=qprobs5, incprobsmat=incprobs5[,-1
 
 
 EstimatedTotal(ss=15,BonThomasA, 2021,  probs=qprobs4, incprobsmat=incprobs4[,-1],
-               quadratstart=attributes(qprobs4)$`quadratstart`) 
+               quadratstart=attributes(qprobs4)$`quadratstart`,
+               quadratsize=4) 
 
 
 EstTotalMat <- purrr::map(5:21, EstimatedTotal, site=BonThomasA, year=2021, probs=qprobs5, incprobsmat =incprobs5[,-1])
