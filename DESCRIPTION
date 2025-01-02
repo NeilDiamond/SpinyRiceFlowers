@@ -14,6 +14,7 @@ Imports:
     calculus,
     cooltools,
     cubature,
+    dplyr,
     ggdensity,
     ggplot2,
     Hmisc,
