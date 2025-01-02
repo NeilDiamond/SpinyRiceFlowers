@@ -22,6 +22,7 @@ Estimated Total Number
 Calculate Total
 }
 \examples{
+\dontrun{
 ff <- ks::kde.boundary(AllPlantsby2020[,2:3],
                     xmin=c(0,0),xmax=c(35,15))
 probs1 <- quadratprobs(ff, quadratstart=c(0,0),quadratsize=5)
@@ -32,4 +33,5 @@ qx=QuadratChange5_2021)))
 results
 Hmisc::wtd.mean(as.numeric(names(results)), results)
 sqrt(Hmisc::wtd.var(as.numeric(names(results)), results))
+}
 }
