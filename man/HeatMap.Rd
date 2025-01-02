@@ -29,5 +29,5 @@ a ggplot2 object
 Plot Heat Map
 }
 \examples{
-HeatMap(Site29[,2:3], weights=Site29$NUMPimelea,xrange=c(11,25), yrange=c(0,11), gridsep=5, title="Heat Map of Site 29")
+\dontrun{HeatMap(Site29[,2:3], weights=Site29$NUMPimelea,xrange=c(11,25), yrange=c(0,11), gridsep=5, title="Heat Map of Site 29")}
 }
