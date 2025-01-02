@@ -18,6 +18,6 @@ Vector of inclusion probabilities
 Title
 }
 \examples{
-
+library(dplyr)
 inclusionprobs(c(0.5,0.15,0.3, 0.05),nsim=100000)
 }
