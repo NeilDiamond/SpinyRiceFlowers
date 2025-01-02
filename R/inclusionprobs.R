@@ -7,7 +7,7 @@
 #' @export
 #'
 #' @examples
-#'
+#' library(dplyr)
 #' inclusionprobs(c(0.5,0.15,0.3, 0.05),nsim=100000)
 
 inclusionprobs  <- function(quadratprobs, nsim=10000){
