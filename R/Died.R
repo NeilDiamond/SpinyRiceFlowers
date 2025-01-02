@@ -1,7 +1,7 @@
 #' Location of plants that have died in a particular year
 #'
-#' @param site
-#' @param year
+#' @param site site
+#' @param year Year
 #'
 #' @return A data-frame of plants that have died with Tag ID, x-axis, and y-axis
 #' @export
