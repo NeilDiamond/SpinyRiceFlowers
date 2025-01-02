@@ -1,9 +1,9 @@
 #' Quadrat counts of changes in a particular year
 #'
-#' @param site
-#' @param year
-#' @param quadratsize
-#' @param quadratstart
+#' @param site Sampling site
+#' @param year Year
+#' @param quadratsize Size of quadrats (m)
+#' @param quadratstart Lower left starting position of quadrats
 #'
 #' @return A contingency table containing the change (recruits - died) in each quadrat
 #' @export
