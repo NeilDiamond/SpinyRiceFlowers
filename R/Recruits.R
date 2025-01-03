@@ -1,7 +1,7 @@
 #' Location of plants that are recruits in a particular year
 #'
-#' @param site
-#' @param year
+#' @param site Site
+#' @param year Year
 #'
 #' @return A data-frame of plants that are recruits with Tag ID, x-axis, and y-axis
 #' @export
