@@ -5,19 +5,19 @@
 #' @param ymax Maximum y co-ordinate
 #' @param Allplants Locations of Plants
 #' @param xxmin Minimum of x and y
-#' @param yymin Maximum of x and y
+#' @param xxmax Maximum of x and y
 #'
 #' @return  Estimated quadrat  probability
 #' @export
 #'
-#' @examples sampres(5, AllPlants = AllPlantsby2020[,c(2,3)])
+#' @examples sampres(5, Allplants = AllPlantsby2020[,c(2,3)])
 #'
 
-sampres <- function(quadratsize, xmax=35, ymax=15, AllPlants,
+sampres <- function(quadratsize, xmax=35, ymax=15, Allplants=AllPlantsby2020[,2:3],
                     xxmin=c(0,0), xxmax=c(35,15)){
 
 
-  fhat <- ks::kde.boundary(AllPlants, xmin=xxmin, xmax=xxmax)
+  fhat <- ks::kde.boundary(Allplants, xmin=xxmin, xmax=xxmax)
   C <- matrixStats::colCumsums(matrixStats::rowCumsums(fhat$estimate))
   C <- C/max(C)
   x <- fhat$eval.points[[1]]
@@ -67,8 +67,8 @@ sampres <- function(quadratsize, xmax=35, ymax=15, AllPlants,
 
   xbr <- seq(0,xmax,quadratsize)
   ybr <- seq(0,ymax,quadratsize)
-  qx <- spatstat.geom::quadratcount(spatstat.geom::as.ppp(cbind(AllPlants[,1],
-                                             AllPlants[,2]),
+  qx <- spatstat.geom::quadratcount(spatstat.geom::as.ppp(cbind(Allplants[,1],
+                                             Allplants[,2]),
                                        W=c(range(xbr),
                                            range(ybr))),
                                 xbreaks=unique(xbr),
