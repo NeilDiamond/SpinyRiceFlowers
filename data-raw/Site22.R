@@ -1,7 +1,7 @@
 ## code to prepare `Site22` dataset goes here
 
 
-Site22 <- read.csv("./inst/extdata/Site 22 WGS84 convert UTM.csv")
+Site22 <- read.csv("./inst/extdata/Site_22_WGS84_convert_UTM.csv")
 Site22 <- data.frame(Tag_ID=1:nrow(Site22), x.axis=Site22[,"east"],
 y.axis=Site22[,"north"])
 Site22$x.axis <- Site22$x.axis-min(Site22$x.axis)
