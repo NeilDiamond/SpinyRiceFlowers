@@ -1,10 +1,12 @@
 #' Title Calculate Quadrat Probability
 #'
-#' @param kdeobject kde object output from kde.boundary()
+#' @param plantlocations x and y coordinates
 #' @param quadratstart lower left co-ordinates ofthe first quadrat
 #' @param quadratsize width (and length) of the quadrats
+#' @param xmin vector of grid minima
+#' @param xmax vector of grid maxima
 #'
-#' @return
+#' @return matrix of quadrat probabilities
 #' @export
 #'
 #' @examples
