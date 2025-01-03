@@ -9,10 +9,11 @@
 #' @export
 #'
 #' @examples
-#'
+#' \dontrun{
 #' x <- AllPlantsby2020[,"x-axis"]
 #' y <- AllPlantsby2020[,"y-axis"]
 #' quadprob(x,y)
+#' }
 #'
 quadprob <- function(xs=xx, ys=yy, xbr=seq(0,35,5), ybr=seq(0,15,5)){
   hx <- MASS::bandwidth.nrd(xs)/4
