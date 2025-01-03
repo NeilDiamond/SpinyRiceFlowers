@@ -13,11 +13,18 @@ quadratprobs(
 )
 }
 \arguments{
+\item{plantlocations}{x and y coordinates}
+
 \item{quadratstart}{lower left co-ordinates ofthe first quadrat}
 
 \item{quadratsize}{width (and length) of the quadrats}
 
-\item{kdeobject}{kde object output from kde.boundary()}
+\item{xmin}{vector of grid minima}
+
+\item{xmax}{vector of grid maxima}
+}
+\value{
+matrix of quadrat probabilities
 }
 \description{
 Title Calculate Quadrat Probability

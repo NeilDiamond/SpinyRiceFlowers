@@ -8,7 +8,7 @@ sampres(
   quadratsize,
   xmax = 35,
   ymax = 15,
-  AllPlants,
+  Allplants = AllPlantsby2020[, 2:3],
   xxmin = c(0, 0),
   xxmax = c(35, 15)
 )
@@ -20,11 +20,11 @@ sampres(
 
 \item{ymax}{Maximum y co-ordinate}
 
-\item{xxmin}{Minimum of x and y}
-
 \item{Allplants}{Locations of Plants}
 
-\item{yymin}{Maximum of x and y}
+\item{xxmin}{Minimum of x and y}
+
+\item{xxmax}{Maximum of x and y}
 }
 \value{
 Estimated quadrat  probability
@@ -33,6 +33,6 @@ Estimated quadrat  probability
 Quadrat Probabilities
 }
 \examples{
-sampres(5, AllPlants = AllPlantsby2020[,c(2,3)])
+sampres(5, Allplants = AllPlantsby2020[,c(2,3)])
 
 }

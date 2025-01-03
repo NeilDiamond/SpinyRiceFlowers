@@ -14,7 +14,7 @@ A data frame with 70 rows and 8 variables:
   \item{Status 2020}{Status as of 2020}
   \item{Status 2021}{Status as of 2021}
   \item{x-axis}{x-axis position}
-  \item{y axis}{y-axis position}
+  \item{y-axis}{y-axis position}
 }
 }
 \source{

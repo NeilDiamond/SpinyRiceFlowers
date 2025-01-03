@@ -10,7 +10,7 @@ A data frame with 12 rows and 4 variables:
   \item{id_2}{1m by 1m quadrat id}
   \item{x}{mid-point of quadrat x-axis position}
   \item{y}{mid-point of quadrat y-axis position}
-  \item{NUMPimela}{Count of number of plants in the quadrat}
+  \item{NUMPimelea}{Count of number of plants in the quadrat}
 }
 }
 \source{

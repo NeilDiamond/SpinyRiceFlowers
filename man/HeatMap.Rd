@@ -16,11 +16,15 @@ HeatMap(
 \arguments{
 \item{xy}{Data Frame to use}
 
+\item{weights}{Weights to be use}
+
 \item{xrange}{Limits of the x-variable}
 
 \item{yrange}{Limits of the y-variable}
 
 \item{gridsep}{Separation of dotted lines}
+
+\item{title}{Title for plot}
 }
 \value{
 a ggplot2 object
@@ -29,5 +33,9 @@ a ggplot2 object
 Plot Heat Map
 }
 \examples{
-\dontrun{HeatMap(Site29[,2:3], weights=Site29$NUMPimelea,xrange=c(11,25), yrange=c(0,11), gridsep=5, title="Heat Map of Site 29")}
+\dontrun{
+HeatMap(Site29[,2:3], weights=Site29$NUMPimelea,
+xrange=c(11,25), yrange=c(0,11),
+gridsep=5, title="Heat Map of Site 29")
+}
 }

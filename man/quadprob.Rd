@@ -22,9 +22,10 @@ matrix of quadrat probabilitiesx
 calculate
 }
 \examples{
-
+\dontrun{
 x <- AllPlantsby2020[,"x-axis"]
 y <- AllPlantsby2020[,"y-axis"]
 quadprob(x,y)
+}
 
 }

@@ -7,7 +7,9 @@
 Died(site, year)
 }
 \arguments{
-\item{year}{}
+\item{site}{site}
+
+\item{year}{Year}
 }
 \value{
 A data-frame of plants that have died with Tag ID, x-axis, and y-axis

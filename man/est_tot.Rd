@@ -21,3 +21,9 @@ Coefficient of variation
 \description{
 Estimated Total of Plants
 }
+\examples{
+\dontrun{
+est_tot(nsamp=6, mm=mm5, qx=qx5, rr=rr5)
+}
+
+}

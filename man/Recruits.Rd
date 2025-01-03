@@ -7,7 +7,9 @@
 Recruits(site, year)
 }
 \arguments{
-\item{year}{}
+\item{site}{Site}
+
+\item{year}{Year}
 }
 \value{
 A data-frame of plants that are recruits with Tag ID, x-axis, and y-axis

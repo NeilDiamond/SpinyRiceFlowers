@@ -7,7 +7,9 @@
 NumberAlive(Site, year)
 }
 \arguments{
-\item{year}{}
+\item{Site}{Site}
+
+\item{year}{Year}
 }
 \value{
 The number of alive plants

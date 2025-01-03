@@ -7,7 +7,13 @@
 Change(site, year, quadratsize = 5, quadratstart = c(0, 0))
 }
 \arguments{
-\item{quadratstart}{}
+\item{site}{Sampling site}
+
+\item{year}{Year}
+
+\item{quadratsize}{Size of quadrats (m)}
+
+\item{quadratstart}{Lower left starting position of quadrats}
 }
 \value{
 A contingency table containing the change (recruits - died) in each quadrat
