@@ -1,7 +1,7 @@
 #' Number of Alive Plants at a Site in a particular year
 #'
-#' @param Site
-#' @param year
+#' @param Site Site
+#' @param year Year
 #'
 #' @return The number of alive plants
 #' @export
