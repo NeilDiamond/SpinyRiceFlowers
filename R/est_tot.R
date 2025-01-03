@@ -8,6 +8,10 @@
 #' @export
 #'
 #' @examples
+#' \dontrun{
+#' est_tot(nsamp=6, mm=mm5, qx=qx5, rr=rr5)
+#' }
+#'
 est_tot <- function(nsamp=6, mm=mm5, qx=qx5, rr=rr5){
   rrsamp <- rr[1:nsamp,]
   incprobs <- tabulate(rrsamp)/ncol(rr)
