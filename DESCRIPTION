@@ -1,7 +1,7 @@
 Package: SpinyRiceFlowers
 Type: Package
 Title: Functions and Data sets for the Spiny Rice Flower Project
-Version: 0.1.4
+Version: 0.1.5
 Authors@R: c(
     person("Megan", "O'Shea",  role = "aut"),
     person("Neil", "Diamond", email = "neil.diamond@esquant.com.au", role = c("aut","cre")))
